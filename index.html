@@ -68,7 +68,16 @@
         }
 
         .logo img {
+            max-height: 60px;
+            /* Diperkecil dari ukuran aslinya */
+            width: auto;
             filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.5));
+        }
+
+        .footer-logo img {
+            max-height: 80px;
+            /* Ukuran footer logo juga diperkecil */
+            width: auto;
         }
 
         .homepage-slides,
@@ -107,21 +116,14 @@
 </head>
 
 <body>
-    <div class=preloader-wrap>
-        <div class=d-table>
-            <div class=d-tablecell>
-                <img src="assets/img/loader.gif" />
-                <p>Memuat...</p>
-            </div>
-        </div>
-    </div>
+
 
     <div class=mainmenu-area>
         <div class=container>
             <div class=row>
                 <div class=col-lg-2>
                     <div class=logo>
-                        <a href=index.html><img src="assets/img/logo.png" alt=Logo class=w-75></a>
+                        <a href=index.html><img src="logo/logonew.png" alt=Logo class="img-fluid"></a>
                     </div>
                     <div class=responsive-menu-wrap></div>
                 </div>
@@ -134,7 +136,7 @@
                             <li><a href=#our-service>Layanan</a></li>
                             <li><a href=#our-project>Proyek</a></li>
                             <li><a href=#contact-us>Kontak</a></li>
-                            <li><a href=#contact-us class="nav-cta-button">Hubungi Kami</a></li>
+                            <li><a href="https://wa.me/6282310192000" target="_blank" class="nav-cta-button">Hubungi Kami</a></li>
                         </ul>
                     </div>
 
@@ -152,7 +154,7 @@
                                 <h1>Perusahaan pembersihan <span>terbaik</span> di negeri ini</h1>
                                 <p>Kami menyediakan solusi terbaik untuk Lingkungan Hidup yang Bersih. Jika Anda
                                     memerlukan bantuan dalam pembersihan atau pemeliharaan.</p>
-                                <a href=#contact class="cleaning-btn slide-btn">Minta Penawaran</a>
+                                <a href="https://wa.me/6282310192000" target="_blank" class="cleaning-btn slide-btn">Minta Penawaran</a>
                             </div>
                         </div>
                     </div>
@@ -168,7 +170,7 @@
                                 <h1>Penyedia Layanan <span>Pembersihan</span> Profesional</h1>
                                 <p>Kami menyediakan solusi terbaik untuk Lingkungan Hidup yang Bersih. Jika Anda
                                     memerlukan bantuan dalam pembersihan atau pemeliharaan.</p>
-                                <a href=#contact class="cleaning-btn slide-btn">Minta Penawaran</a>
+                                <a href="https://wa.me/6282310192000" target="_blank" class="cleaning-btn slide-btn">Minta Penawaran</a>
                             </div>
                         </div>
                     </div>
@@ -185,7 +187,7 @@
                                 </h1>
                                 <p>Kami menyediakan solusi terbaik untuk Lingkungan Hidup yang Bersih. Jika Anda
                                     memerlukan bantuan dalam pembersihan atau pemeliharaan.</p>
-                                <a href=#contact class="cleaning-btn slide-btn">Minta Penawaran</a>
+                                <a href="https://wa.me/6282310192000" target="_blank" class="cleaning-btn slide-btn">Minta Penawaran</a>
                             </div>
                         </div>
                     </div>
@@ -200,21 +202,21 @@
                     <div class="single-working-info wow fadeInUp">
                         <i class="fa fa-clock-o"></i>
                         <h3>Jam Operasional</h3>
-                        <p>Senin - Jumat <br /> <span>08.00 - 22.00</span></p>
+                        <p>Senin - Minggu <br /> <span>08.00 - 22.00</span></p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="single-working-info wow fadeInUp" data-wow-delay=0.4s>
                         <i class="fa fa-phone"></i>
                         <h3>Ada Pertanyaan?</h3>
-                        <p>Hubungi Kami Sekarang <br /> <span>+12345678945</span></p>
+                        <p>Hubungi Kami Sekarang <br /> <span>+62 823-1019-2000</span></p>
                     </div>
                 </div>
                 <div class="col-md-12 col-lg-4">
                     <div class="single-working-info wow fadeInUp" data-wow-delay=0.8s>
                         <i class="fa fa-home"></i>
                         <h3>Kunjungi Kami</h3>
-                        <p>Butuh Pembersihan <br /> <span>75 Hockanum Blvd Unit 1523, Vernon Rockville, CT, 06066</span>
+                        <p>Butuh Pembersihan <br /> <span>Jl. Surabaya Asratek No.D5, Ulak Karang Sel., Kec. Padang Utara, Kota Padang</span>
                         </p>
                     </div>
                 </div>
@@ -278,7 +280,9 @@
                 <div class=col-lg-12>
                     <div class="section-title text-center">
                         <h2>Layanan Kami</h2>
-                        <p>Izinkan kami menggunakan pengalaman bertahun-tahun, karyawan terampil, dan prosedur canggih untuk memastikan lingkungan yang bersih dan sehat bagi karyawan, pelanggan, dan tamu Anda.</p>
+                        <p>Izinkan kami menggunakan pengalaman bertahun-tahun, karyawan terampil, dan prosedur canggih
+                            untuk memastikan lingkungan yang bersih dan sehat bagi karyawan, pelanggan, dan tamu Anda.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -328,7 +332,9 @@
                 <div class=col-lg-12>
                     <div class="section-title text-center">
                         <h2>Mengapa Memilih Kami</h2>
-                        <p>Kami melayani klien kami seolah-olah kami melayani diri kami sendiri. Kami menghargai masukan <br class=hidden-xs /> mereka dan menggunakannya untuk meningkatkan hasil kerja kami.</p>
+                        <p>Kami melayani klien kami seolah-olah kami melayani diri kami sendiri. Kami menghargai masukan
+                            <br class=hidden-xs /> mereka dan menggunakannya untuk meningkatkan hasil kerja kami.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -337,12 +343,15 @@
                     <div class=choose-reasons>
                         <i class="fa fa-star"></i>
                         <h4>Kami memberikan solusi terbaik untuk Lingkungan yang Bersih.</h4>
-                        <p>Kami melayani klien kami seolah-olah kami melayani diri kami sendiri. Kami menghargai masukan mereka dan menggunakannya untuk meningkatkan hasil kerja kami.</p>
+                        <p>Kami melayani klien kami seolah-olah kami melayani diri kami sendiri. Kami menghargai masukan
+                            mereka dan menggunakannya untuk meningkatkan hasil kerja kami.</p>
                     </div>
                     <div class=choose-reasons>
                         <i class="fa fa-users"></i>
                         <h4>Kami Menyediakan Tenaga Ahli dan Berkualitas</h4>
-                        <p>Kami memberikan pelatihan kepada personel kami untuk memastikan standar layanan yang tinggi. Kami selalu memperbarui inovasi terbaru dalam produk dan teknologi ramah lingkungan untuk memberikan yang terbaik bagi rumah klien kami.</p>
+                        <p>Kami memberikan pelatihan kepada personel kami untuk memastikan standar layanan yang tinggi.
+                            Kami selalu memperbarui inovasi terbaru dalam produk dan teknologi ramah lingkungan untuk
+                            memberikan yang terbaik bagi rumah klien kami.</p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-xl-4 hidden-md">
@@ -359,7 +368,8 @@
                     <div class=choose-reasons>
                         <i class="fa fa-life-ring"></i>
                         <h4>Respon Cepat dan Dukungan 24/7</h4>
-                        <p>Tujuan kami adalah kepuasan Anda (tentu saja setelah hasil kerja kami). Layanan telepon beroperasi 24 jam sehari (24/7).</p>
+                        <p>Tujuan kami adalah kepuasan Anda (tentu saja setelah hasil kerja kami). Layanan telepon
+                            beroperasi 24 jam sehari (24/7).</p>
                     </div>
                 </div>
             </div>
@@ -632,7 +642,10 @@
                         </div>
                         <div class=col-md-8>
                             <h3>Stephanie S.</h3>
-                            <p>Layanan Pembersih Integra sangat luar biasa, harganya terjangkau, dan sangat profesional! Mereka selalu memberikan yang terbaik melebihi ekspektasi. Sebagai bisnis keluarga, saya sudah mengenal mereka selama 9 tahun. Saat ini mereka membersihkan Airbnb saya di University Place dan rumah saya di Tacoma.</p>
+                            <p>Layanan Pembersih Integra sangat luar biasa, harganya terjangkau, dan sangat profesional!
+                                Mereka selalu memberikan yang terbaik melebihi ekspektasi. Sebagai bisnis keluarga, saya
+                                sudah mengenal mereka selama 9 tahun. Saat ini mereka membersihkan Airbnb saya di
+                                University Place dan rumah saya di Tacoma.</p>
                         </div>
                     </div>
                 </div>
@@ -646,7 +659,10 @@
                         </div>
                         <div class=col-md-8>
                             <h3>Sam S.</h3>
-                            <p>Pertama-tama, kami telah menggunakan layanan Integra selama sekitar satu setengah tahun dan saya harus katakan bahwa mereka melakukan pekerjaan yang hebat dalam membersihkan apa pun yang saya butuhkan dengan senyum. Orang-orangnya sangat ramah, saya benar-benar merekomendasikan layanan mereka.</p>
+                            <p>Pertama-tama, kami telah menggunakan layanan Integra selama sekitar satu setengah tahun
+                                dan saya harus katakan bahwa mereka melakukan pekerjaan yang hebat dalam membersihkan
+                                apa pun yang saya butuhkan dengan senyum. Orang-orangnya sangat ramah, saya benar-benar
+                                merekomendasikan layanan mereka.</p>
                         </div>
                     </div>
                 </div>
@@ -682,14 +698,13 @@
                     <div class="col-1"></div>
                     <div class="col-lg-3 col-md-4">
                         <div class=footer-wid>
-                            <h2 class=footer-logo><img src="assets/img/footer-logo.png" alt=Logo></h2>
+                            <h2 class=footer-logo><img src="logo/logonew.png" alt=Logo class="img-fluid"></h2>
                             <p>Kami selalu siap membantu Anda.</p>
-                            <p>75 Hockanum Blvd Unit 1523, Vernon Rockville, CT, 06066</p>
+                            <p>Jl. Surabaya Asratek No.D5, Ulak Karang Sel., Kec. Padang Utara, Kota Padang</p>
                             <div class=address-info>
-                                <span>Telepon: +12345678945</span>
-                                <span>Faks: +12345678945</span>
-                                <span>Email: <a href="" class="__cf_email__"
-                                        data-cfemail="c1b2b4b1b1aeb3b581aca8adaab6a0b2a9efa2aeac">[email&#160;protected]</a></span>
+                                <span>Telepon: +62 823-1019-2000</span>
+                                <span>WhatsApp: +62 823-1019-2000</span>
+                                
                             </div>
                         </div>
                     </div>
@@ -730,9 +745,8 @@
                         <div class=footer-wid>
                             <h3 class=footer-wid-title>Jam Operasional</h3>
                             <ul class=opening-hour>
-                                <li>Senin - Jumat : <span>08.00 - 22.00</span></li>
-                                <li>Sabtu : <span>08.00 - 14.00</span></li>
-                                <li>Minggu : <span>Tutup</span></li>
+                                <li>Senin - Minggu : <span>08.00 - 22.00</span></li>
+                            
                             </ul>
                             <div class=social-icos>
                                 <ul>
