@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang=id>
+
+<head>
+    <meta charset=UTF-8>
+    <meta http-equiv=X-UA-Compatible content="IE=edge">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title>Integra Cleaning Services</title>
+    <link rel=stylesheet href="assets/css/bootstrap.min.css">
+    <link rel=stylesheet href="assets/css/font-awesome.min.css">
+    <link rel=stylesheet href="assets/css/owl.carousel.css">
+    <link rel=stylesheet href="assets/css/magnific-popup.css">
+    <link rel=stylesheet href="assets/css/slicknav.min.css">
+    <link rel=stylesheet href="assets/css/animate.css">
+    <link rel=stylesheet href="assets/css/style.css">
+    <link rel=stylesheet href="assets/css/responsive.css">
+    <link rel=stylesheet href="assets/css/color/default-color.css">
+    <link rel=icon type="image/png" href="assets/img/favicon.png">
+    <style>
+        .mainmenu-area {
+            background: transparent !important;
+            position: absolute !important;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 999;
+            border-bottom: none !important;
+            box-shadow: none !important;
+        }
+
+        .mainmenu ul li a {
+            color: #fff !important;
+            font-weight: 700;
+            background: transparent !important;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5) !important;
+            transition: all 0.3s ease;
+        }
+
+        /* Hilangkan garis indikator di bawah teks */
+        .mainmenu ul li a:before,
+        .mainmenu ul li a:after {
+            display: none !important;
+        }
+
+        .mainmenu ul li.active a,
+        .mainmenu ul li:hover a {
+            background: transparent !important;
+            color: #0056b3 !important;
+            text-shadow: none !important;
+            box-shadow: none !important;
+        }
+
+        .mainmenu-area.now-visible {
+            background: transparent !important;
+            position: fixed !important;
+            box-shadow: none !important;
+        }
+
+        .mainmenu-area.now-visible ul li a {
+            color: #fff !important;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5) !important;
+        }
+
+        .mainmenu-area.now-visible ul li.active a,
+        .mainmenu-area.now-visible ul li:hover a {
+            color: #0056b3 !important;
+            text-shadow: none !important;
+        }
+
+        .logo img {
+            filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.5));
+        }
+
+        .homepage-slides,
+        .single-slider-item {
+            margin-top: 0 !important;
+            padding-top: 0 !important;
+        }
+
+        /* Navbar CTA Button */
+        .nav-cta-button {
+            background: #f8b604 !important;
+            color: #fff !important;
+            padding: 10px 25px !important;
+            border-radius: 30px !important;
+            margin-left: 20px !important;
+            text-shadow: none !important;
+            transition: all 0.3s ease !important;
+            display: inline-block !important;
+            font-weight: 700 !important;
+        }
+
+        .nav-cta-button:hover {
+            background: #fff !important;
+            color: #f8b604 !important;
+            box-shadow: 0 4px 15px rgba(248, 182, 4, 0.4) !important;
+        }
+
+        .mainmenu ul li a.nav-cta-button:before {
+            display: none !important;
+        }
+
+        .mainmenu-area.now-visible .nav-cta-button {
+            color: #fff !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div class=preloader-wrap>
+        <div class=d-table>
+            <div class=d-tablecell>
+                <img src="assets/img/loader.gif" />
+                <p>Memuat...</p>
+            </div>
+        </div>
+    </div>
+
+    <div class=mainmenu-area>
+        <div class=container>
+            <div class=row>
+                <div class=col-lg-2>
+                    <div class=logo>
+                        <a href=index.html><img src="assets/img/logo.png" alt=Logo class=w-75></a>
+                    </div>
+                    <div class=responsive-menu-wrap></div>
+                </div>
+                <div class=col-lg-10>
+                    <div class=mainmenu>
+                        <ul id=navigation>
+                            <li class=active><a href=index.html>Beranda</a>
+                            </li>
+                            <li><a href=#about-us>Tentang Kami</a></li>
+                            <li><a href=#our-service>Layanan</a></li>
+                            <li><a href=#our-project>Proyek</a></li>
+                            <li><a href=#contact-us>Kontak</a></li>
+                            <li><a href=#contact-us class="nav-cta-button">Hubungi Kami</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class=homepage-slides>
+        <div class="single-slider-item slide-bg-1">
+            <div class=d-table>
+                <div class=d-tablecell>
+                    <div class=container>
+                        <div class=row>
+                            <div class=col-lg-8>
+                                <h1>Perusahaan pembersihan <span>terbaik</span> di negeri ini</h1>
+                                <p>Kami menyediakan solusi terbaik untuk Lingkungan Hidup yang Bersih. Jika Anda
+                                    memerlukan bantuan dalam pembersihan atau pemeliharaan.</p>
+                                <a href=#contact class="cleaning-btn slide-btn">Minta Penawaran</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="single-slider-item slide-bg-2">
+            <div class=d-table>
+                <div class=d-tablecell>
+                    <div class=container>
+                        <div class=row>
+                            <div class="col-lg-10 offset-lg-1 text-center">
+                                <h1>Penyedia Layanan <span>Pembersihan</span> Profesional</h1>
+                                <p>Kami menyediakan solusi terbaik untuk Lingkungan Hidup yang Bersih. Jika Anda
+                                    memerlukan bantuan dalam pembersihan atau pemeliharaan.</p>
+                                <a href=#contact class="cleaning-btn slide-btn">Minta Penawaran</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="single-slider-item slide-bg-3">
+            <div class=d-table>
+                <div class=d-tablecell>
+                    <div class=container>
+                        <div class=row>
+                            <div class="col-lg-10 offset-lg-1 text-center">
+                                <h1>Kualitas, <span>Presentasi</span>, dan Layanan Pelanggan adalah nilai utama kami
+                                </h1>
+                                <p>Kami menyediakan solusi terbaik untuk Lingkungan Hidup yang Bersih. Jika Anda
+                                    memerlukan bantuan dalam pembersihan atau pemeliharaan.</p>
+                                <a href=#contact class="cleaning-btn slide-btn">Minta Penawaran</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class=working-info id="contact">
+        <div class=container>
+            <div class=row>
+                <div class="col-md-6 col-lg-4">
+                    <div class="single-working-info wow fadeInUp">
+                        <i class="fa fa-clock-o"></i>
+                        <h3>Jam Operasional</h3>
+                        <p>Senin - Jumat <br /> <span>08.00 - 22.00</span></p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="single-working-info wow fadeInUp" data-wow-delay=0.4s>
+                        <i class="fa fa-phone"></i>
+                        <h3>Ada Pertanyaan?</h3>
+                        <p>Hubungi Kami Sekarang <br /> <span>+12345678945</span></p>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-4">
+                    <div class="single-working-info wow fadeInUp" data-wow-delay=0.8s>
+                        <i class="fa fa-home"></i>
+                        <h3>Kunjungi Kami</h3>
+                        <p>Butuh Pembersihan <br /> <span>75 Hockanum Blvd Unit 1523, Vernon Rockville, CT, 06066</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="cleaning-content-block about-us" id="about-us">
+        <div class=container>
+            <div class=row>
+                <div class=col-lg-12>
+                    <div class="section-title text-center">
+                        <h2>Tentang Kami</h2>
+                        <p>Kami adalah perusahaan lokal yang Berlisensi dan Terasuransi!</p>
+                    </div>
+                </div>
+            </div>
+            <div class=row>
+                <div class=col-lg-6>
+                    <div class=who-we-info>
+                        <div class=single-info>
+                            <i class="fa fa-users"></i>
+                            <h4>Staf Profesional</h4>
+                            <p>Kami dikenal luas di masyarakat; kami membangun hubungan jangka panjang sambil terus
+                                berkembang. Karena itu, kami selalu menambah tenaga kerja baru.</p>
+                        </div>
+                        <div class=single-info>
+                            <i class="fa fa-bath"></i>
+                            <h4>Layanan Kelas Satu</h4>
+                            <p>Tujuan kami adalah kepuasan Anda (tentu saja setelah hasil kerja kami). Layanan telepon
+                                beroperasi 24 jam sehari (24/7).</p>
+                        </div>
+                        <div class=single-info>
+                            <i class="fa fa-cogs"></i>
+                            <h4>Peralatan Pembersih Berkualitas</h4>
+                            <p>Kami memilih produk pembersih terbaik dan paling alami yang memberikan hasil luar biasa.
+                            </p>
+                        </div>
+                        <ul class=list-inline>
+                            <li><img src="assets/img/check.png" alt=check> Kreativitas</li>
+                            <li><img src="assets/img/check.png" alt=check> Pengalaman</li>
+                            <li><img src="assets/img/check.png" alt=check> Kerjasama Tim</li>
+                            <li><img src="assets/img/check.png" alt=check> Hasil</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class=col-lg-6>
+                    <div class=promo-video>
+                        <div class="promo-video-block promo-video-bg">
+                            <a href="https://vimeo.com/43250124" class="promo-play-btn popup-vimeo">
+                                <i class="fa fa-play"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="our-services gray-bg" id="our-service">
+        <div class=container>
+            <div class=row>
+                <div class=col-lg-12>
+                    <div class="section-title text-center">
+                        <h2>Layanan Kami</h2>
+                        <p>Izinkan kami menggunakan pengalaman bertahun-tahun, karyawan terampil, dan prosedur canggih untuk memastikan lingkungan yang bersih dan sehat bagi karyawan, pelanggan, dan tamu Anda.</p>
+                    </div>
+                </div>
+            </div>
+            <div class=row>
+                <div class="col-md-6 col-lg-4 wow fadeInUp">
+                    <div class=single-service-item-block>
+                        <a href=/ class="single-service-image service-bg-1"></a>
+                        <h3><a href= />Pembersihan Apartemen</a></h3>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay=0.2s>
+                    <div class=single-service-item-block>
+                        <a href=/ class="single-service-image service-bg-2"></a>
+                        <h3><a href= />Pembersihan Kantor</a></h3>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay=0.4s>
+                    <div class=single-service-item-block>
+                        <a href=/ class="single-service-image service-bg-3"></a>
+                        <h3><a href= />Pembersihan Rumah</a></h3>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay=0.6s>
+                    <div class=single-service-item-block>
+                        <a href=/ class="single-service-image service-bg-4"></a>
+                        <h3><a href= />Pencucian Mobil</a></h3>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay=0.8s>
+                    <div class=single-service-item-block>
+                        <a href=/ class="single-service-image service-bg-5"></a>
+                        <h3><a href= />Pembersihan Ramah Lingkungan</a></h3>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay=0.9s>
+                    <div class=single-service-item-block>
+                        <a href=/ class="single-service-image service-bg-6"></a>
+                        <h3><a href= />Layanan Pemeliharaan</a></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class=why-choose-us>
+        <div class=container>
+            <div class=row>
+                <div class=col-lg-12>
+                    <div class="section-title text-center">
+                        <h2>Mengapa Memilih Kami</h2>
+                        <p>Kami melayani klien kami seolah-olah kami melayani diri kami sendiri. Kami menghargai masukan <br class=hidden-xs /> mereka dan menggunakannya untuk meningkatkan hasil kerja kami.</p>
+                    </div>
+                </div>
+            </div>
+            <div class=row>
+                <div class="col-lg-6 col-xl-4">
+                    <div class=choose-reasons>
+                        <i class="fa fa-star"></i>
+                        <h4>Kami memberikan solusi terbaik untuk Lingkungan yang Bersih.</h4>
+                        <p>Kami melayani klien kami seolah-olah kami melayani diri kami sendiri. Kami menghargai masukan mereka dan menggunakannya untuk meningkatkan hasil kerja kami.</p>
+                    </div>
+                    <div class=choose-reasons>
+                        <i class="fa fa-users"></i>
+                        <h4>Kami Menyediakan Tenaga Ahli dan Berkualitas</h4>
+                        <p>Kami memberikan pelatihan kepada personel kami untuk memastikan standar layanan yang tinggi. Kami selalu memperbarui inovasi terbaru dalam produk dan teknologi ramah lingkungan untuk memberikan yang terbaik bagi rumah klien kami.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-4 hidden-md">
+                    <div class=service-team>
+                        <img src="assets/img/service-team.jpg" alt="Service Man">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-4">
+                    <div class=choose-reasons>
+                        <i class="fa fa-wrench"></i>
+                        <h4>Teknologi dan Peralatan Modern yang Kami Gunakan</h4>
+                        <p>Kami memilih produk pembersih terbaik dan paling alami yang memberikan hasil luar biasa.</p>
+                    </div>
+                    <div class=choose-reasons>
+                        <i class="fa fa-life-ring"></i>
+                        <h4>Respon Cepat dan Dukungan 24/7</h4>
+                        <p>Tujuan kami adalah kepuasan Anda (tentu saja setelah hasil kerja kami). Layanan telepon beroperasi 24 jam sehari (24/7).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cleaning-content-block achivment-section">
+        <div class=container>
+            <div class=row>
+                <div class="col-md-6 col-lg-3 wow fadeInUp">
+                    <div class=counter-box>
+                        <i class="fa fa-calendar"></i>
+                        <h3 class=counter-number>30</h3>
+                        <p>Tahun Pengalaman</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay=0.2s>
+                    <div class=counter-box>
+                        <i class="fa fa-user-plus"></i>
+                        <h3 class=counter-number>1599</h3>
+                        <p>Klien yang Puas</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay=0.4s>
+                    <div class=counter-box>
+                        <i class="fa fa-users"></i>
+                        <h3 class=counter-number>1299</h3>
+                        <p>Karyawan Kami</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay=0.6s>
+                    <div class=counter-box>
+                        <i class="fa fa-trophy"></i>
+                        <h3 class=counter-number>199</h3>
+                        <p>Penghargaan</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class=latest-pjoject id="our-project">
+        <div class=container>
+            <div class=row>
+                <div class=col-lg-12>
+                    <div class="section-title text-center">
+                        <h2>Proyek Terbaru Kami</h2>
+                    </div>
+                </div>
+            </div>
+            <div class=row>
+                <div class="col-lg-4 col-md-6 wow fadeInUp">
+                    <div class=single-project-item>
+                        <img src="assets/img/project-bg-1.jpg" alt="project one">
+                        <div class=about-title>
+                            <h4>Pembersihan Apartemen</h4>
+                        </div>
+                        <div class=single-project-info>
+                            <div class=mask-table>
+                                <div class=mask-table-cell>
+                                    <h3>Pembersihan Apartemen</h3>
+                                    <a href=class="read-more-btn project-btn">Baca Selengkapnya <i
+                                            class="fa fa-arrow-circle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=0.2s>
+                    <div class=single-project-item>
+                        <img src="assets/img/project-bg-2.jpg" alt="project two">
+                        <div class=about-title>
+                            <h4>Pembersihan Kantor</h4>
+                        </div>
+                        <div class=single-project-info>
+                            <div class=mask-table>
+                                <div class=mask-table-cell>
+                                    <h3>Pembersihan Kantor</h3>
+                                    <a href=class="read-more-btn project-btn">Baca Selengkapnya <i
+                                            class="fa fa-arrow-circle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=0.4s>
+                    <div class=single-project-item>
+                        <img src="assets/img/project-bg-3.jpg" alt="project three">
+                        <div class=about-title>
+                            <h4>Pembersihan Apartemen</h4>
+                        </div>
+                        <div class=single-project-info>
+                            <div class=mask-table>
+                                <div class=mask-table-cell>
+                                    <h3>Pembersihan Apartemen</h3>
+                                    <a href=class="read-more-btn project-btn">Baca Selengkapnya <i
+                                            class="fa fa-arrow-circle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=0.6s>
+                    <div class=single-project-item>
+                        <img src="assets/img/project-bg-4.jpg" alt="project four">
+                        <div class=about-title>
+                            <h4>Pembersihan Rumah</h4>
+                        </div>
+                        <div class=single-project-info>
+                            <div class=mask-table>
+                                <div class=mask-table-cell>
+                                    <h3>Pembersihan Rumah</h3>
+                                    <a href=class="read-more-btn project-btn">Baca Selengkapnya <i
+                                            class="fa fa-arrow-circle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=0.8s>
+                    <div class=single-project-item>
+                        <img src="assets/img/project-bg-5.jpg" alt="project four">
+                        <div class=about-title>
+                            <h4>Layanan Renovasi</h4>
+                        </div>
+                        <div class=single-project-info>
+                            <div class=mask-table>
+                                <div class=mask-table-cell>
+                                    <h3>Layanan Renovasi</h3>
+                                    <a href=class="read-more-btn project-btn">Baca Selengkapnya <i
+                                            class="fa fa-arrow-circle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=0.9s>
+                    <div class=single-project-item>
+                        <img src="assets/img/project-bg-6.jpg" alt="project four">
+                        <div class=about-title>
+                            <h4>Pembersihan Ramah Lingkungan</h4>
+                        </div>
+                        <div class=single-project-info>
+                            <div class=mask-table>
+                                <div class=mask-table-cell>
+                                    <h3>Pembersihan Ramah Lingkungan</h3>
+                                    <a href=class="read-more-btn project-btn">Baca Selengkapnya <i
+                                            class="fa fa-arrow-circle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cleaning-content-block our-team gray-bg">
+        <div class=container>
+            <div class=row>
+                <div class=col-lg-12>
+                    <div class="section-title text-center">
+                        <h2>Temui Tim Luar Biasa Kami</h2>
+                    </div>
+                </div>
+            </div>
+            <div class=team-slides>
+                <div class=team-slide-item>
+                    <div class=team-box-item>
+                        <img src="assets/img/team-1.jpg" alt="" />
+                        <div class=member-info>
+                            <h3>Kristiana</h3>
+                            <span>- Pendiri</span>
+                        </div>
+                        <div class=social-media>
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class=team-slide-item>
+                    <div class=team-box-item>
+                        <img src="assets/img/team-2.jpg" alt="" />
+                        <div class=member-info>
+                            <h3>Williamson</h3>
+                            <span>- Anggota Tim</span>
+                        </div>
+                        <div class=social-media>
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class=team-slide-item>
+                    <div class=team-box-item>
+                        <img src="assets/img/team-3.jpg" alt="" />
+                        <div class=member-info>
+                            <h3>Miranda joy</h3>
+                            <span>- Anggota Tim</span>
+                        </div>
+                        <div class=social-media>
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class=team-slide-item>
+                    <div class=team-box-item>
+                        <img src="assets/img/team-4.jpg" alt="" />
+                        <div class=member-info>
+                            <h3>Lauren Cox</h3>
+                            <span>- Anggota Tim</span>
+                        </div>
+                        <div class=social-media>
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class=team-slide-item>
+                    <div class=team-box-item>
+                        <img src="assets/img/team-5.jpg" alt="" />
+                        <div class=member-info>
+                            <h3>Jessie Barnett</h3>
+                            <span>- Anggota Tim</span>
+                        </div>
+                        <div class=social-media>
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class=team-slide-item>
+                    <div class=team-box-item>
+                        <img src="assets/img/team-6.jpg" alt="" />
+                        <div class=member-info>
+                            <h3>Team Member</h3>
+                            <span>- Lauren Cox</span>
+                        </div>
+                        <div class=social-media>
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cleaning-content-block testimonial">
+        <div class=container>
+            <div class=row>
+                <div class=col-lg-12>
+                    <div class="section-title text-center">
+                        <h2>Apa Kata Klien Berharga Kami</h2>
+                    </div>
+                </div>
+            </div>
+            <div class=testimonial-slides>
+                <div class="testimonial-slide-item wow fadeInUp">
+                    <div class=row>
+                        <div class=col-md-4>
+                            <div class=profile-item>
+                                <img src="assets/img/client-img.jpg" class=img-circle alt=nick>
+                                <span class=qout-icon><img src="assets/img/qoute.png" alt=qoute></span>
+                            </div>
+                        </div>
+                        <div class=col-md-8>
+                            <h3>Stephanie S.</h3>
+                            <p>Layanan Pembersih Integra sangat luar biasa, harganya terjangkau, dan sangat profesional! Mereka selalu memberikan yang terbaik melebihi ekspektasi. Sebagai bisnis keluarga, saya sudah mengenal mereka selama 9 tahun. Saat ini mereka membersihkan Airbnb saya di University Place dan rumah saya di Tacoma.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide-item wow fadeInUp">
+                    <div class=row>
+                        <div class=col-md-4>
+                            <div class=profile-item>
+                                <img src="assets/img/client-img.jpg" class=img-circle alt=nick>
+                                <span class=qout-icon><img src="assets/img/qoute.png" alt=qoute></span>
+                            </div>
+                        </div>
+                        <div class=col-md-8>
+                            <h3>Sam S.</h3>
+                            <p>Pertama-tama, kami telah menggunakan layanan Integra selama sekitar satu setengah tahun dan saya harus katakan bahwa mereka melakukan pekerjaan yang hebat dalam membersihkan apa pun yang saya butuhkan dengan senyum. Orang-orangnya sangat ramah, saya benar-benar merekomendasikan layanan mereka.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cleaning-content-block subscription">
+        <div class=container>
+            <div class="row wow fadeInUp" data-wow-delay=0.2s>
+                <div class="col-lg-6 offset-lg-3 text-center">
+                    <p>Dapatkan berita terbaru di kotak masuk Anda</p>
+                    <h2>Berlangganan sekarang</h2>
+                    <div class=subscribe-form>
+                        <form action=https://templates.envytheme.com/milkwash/default/index.html>
+                            <input placeholder="Masukkan alamat email Anda" required>
+                            <button type=submit>berlangganan sekarang</button>
+                        </form>
+                    </div>
+                    <span><i class="fa fa-lock"></i> Kami tidak pernah membagikan email Anda kepada orang lain</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <a href="#" id=back-to-top title="Kembali ke Atas">
+        <i class="fa fa-long-arrow-up"></i>
+    </a>
+    <footer class=site-footer id="contact-us">
+        <div class=footer-top-area>
+            <div class=container>
+                <div class=row>
+                    <div class="col-1"></div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class=footer-wid>
+                            <h2 class=footer-logo><img src="assets/img/footer-logo.png" alt=Logo></h2>
+                            <p>Kami selalu siap membantu Anda.</p>
+                            <p>75 Hockanum Blvd Unit 1523, Vernon Rockville, CT, 06066</p>
+                            <div class=address-info>
+                                <span>Telepon: +12345678945</span>
+                                <span>Faks: +12345678945</span>
+                                <span>Email: <a href="" class="__cf_email__"
+                                        data-cfemail="c1b2b4b1b1aeb3b581aca8adaab6a0b2a9efa2aeac">[email&#160;protected]</a></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 text-center">
+                        <div class="footer-wid footer-menu pl-30">
+                            <h3 class=footer-wid-title>Tautan Cepat</h3>
+                            <ul>
+                                <li><a href=><i class="fa fa-chevron-circle-right"></i> beranda</a></li>
+                                <li><a href=><i class="fa fa-chevron-circle-right"></i> Tentang Kami</a></li>
+                                <li><a href=><i class="fa fa-chevron-circle-right"></i> layanan</a></li>
+                                <li><a href=><i class="fa fa-chevron-circle-right"></i> proyek</a></li>
+                                <li><a href=><i class="fa fa-chevron-circle-right"></i> HARGA</a></li>
+                                <li><a href=><i class="fa fa-chevron-circle-right"></i> kontak</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- <div class="col-lg-3 col-md-6">
+                        <div class=footer-wid>
+                            <h3 class=footer-wid-title>Recent Post</h3>
+                            <a class=single-footer-iem href=single-post.html>
+                                <img src="assets/img/blog-img-1.jpg" alt=Image>
+                                <p>Lorem ipsum dolor</p>
+                                <span>June 10, 2017</span>
+                            </a>
+                            <a class=single-footer-iem href=single-post.html>
+                                <img src="assets/img/blog-img-2.jpg" alt=Image>
+                                <p>Lorem ipsum dolor</p>
+                                <span>June 10, 2017</span>
+                            </a>
+                            <a class=single-footer-iem href=single-post.html>
+                                <img src="assets/img/blog-img-3.jpg" alt=Image>
+                                <p>Lorem ipsum dolor</p>
+                                <span>June 10, 2017</span>
+                            </a>
+                        </div>
+                    </div> -->
+                    <div class="col-lg-3 col-md-4">
+                        <div class=footer-wid>
+                            <h3 class=footer-wid-title>Jam Operasional</h3>
+                            <ul class=opening-hour>
+                                <li>Senin - Jumat : <span>08.00 - 22.00</span></li>
+                                <li>Sabtu : <span>08.00 - 14.00</span></li>
+                                <li>Minggu : <span>Tutup</span></li>
+                            </ul>
+                            <div class=social-icos>
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1"></div>
+                </div>
+            </div>
+        </div>
+        <div class=footer-copyright-area>
+            <div class=container>
+                <div class=row>
+                    <div class=col-lg-6>
+                        © 2021 All Rights Reserved by Integra Cleaning Services.
+                    </div>
+                    <div class="col-lg-6 text-right">
+                        <ul class=list-inline>
+                            <li><img src="assets/img/mastercard.png" alt=payment></li>
+                            <li><img src="assets/img/paypal.png" alt=payment></li>
+                            <li><img src="assets/img/visa02.png" alt=payment></li>
+                            <li><img src="assets/img/americanexpress.png" alt=payment></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="assets/js/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/jquery.slicknav.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/mixitup.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/active.js"></script>
+</body>
+
+</html>
