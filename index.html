@@ -245,10 +245,11 @@
         @media (max-width: 768px) {
             /* Navbar & Header */
             .mainmenu-area { background-color: #0b457f !important; position: relative !important; padding: 15px 0 !important; }
-            .logo img { max-height: 40px !important; margin: 0 auto !important; display: block; }
-            .responsive-menu-wrap { margin-top: -30px !important; }
-            .slicknav_btn { background-color: #ffc107 !important; margin-top: -20px !important; }
-            .slicknav_nav { background: #0b457f !important; border-radius: 8px !important; margin-top: 10px !important; }
+            .logo { text-align: left !important; padding-left: 15px !important; }
+            .logo img { max-height: 45px !important; margin: 0 !important; display: inline-block !important; width: auto !important; }
+            .responsive-menu-wrap { position: absolute !important; top: 15px !important; right: 15px !important; margin-top: 0 !important; display: block !important; }
+            .slicknav_btn { background-color: #ffc107 !important; margin: 0 !important; padding: 7px 10px !important; border-radius: 4px !important; }
+            .slicknav_nav { background: #0b457f !important; border-radius: 8px !important; margin-top: 15px !important; }
             .slicknav_nav a { color: #fff !important; font-weight: 600 !important; }
 
             /* Hero Banner */
@@ -261,8 +262,10 @@
             .promo-video img { width: 100% !important; height: auto !important; margin-top: 40px !important; box-sizing: border-box !important; }
 
             /* Services Grid */
-            .service-card-large .service-img, .service-img { min-height: 200px !important; }
-            #more-services .service-card { height: 250px !important; }
+            .service-grid { margin-top: 20px !important; }
+            .service-card { height: auto !important; margin-bottom: 25px !important; display: flex !important; flex-direction: column !important; }
+            .service-card-large .service-img, .service-img { height: 250px !important; min-height: 250px !important; width: 100% !important; flex-grow: 1 !important; }
+            #more-services .service-card { height: auto !important; min-height: 280px !important; }
             
             /* Cleaning Gallery Layout */
             .gallery-item { margin-bottom: 20px !important; }
